@@ -1,6 +1,6 @@
 [package]
 name = "acme-client2"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 rust-version = "1.88"
 license = "BSD-2-Clause"
@@ -10,7 +10,7 @@ description = "Asynchronous ACME certificate issuance with application-owned HTT
 keywords = ["acme", "tls", "certificate", "https"]
 categories = ["authentication", "network-programming"]
 readme = "README.md"
-include = ["src/**", "tests/**", "scripts/**", "README.md", "Cargo.toml"]
+include = ["src/**", "tests/**", "scripts/**", "README.md", "LICENSE", "Cargo.toml"]
 
 [dependencies]
 base64-simd = "0.8"
