@@ -23,7 +23,7 @@ jose4rs = "0.6"
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 tokio = { version = "1", features = ["time"] }
-tokio-aws-lc = { version = "0.3", features = ["hyper"] }
+tokio-aws-lc = { version = "0.4", features = ["hyper-client"] }
 
 [dev-dependencies]
 hyper = { version = "1", features = ["server"] }

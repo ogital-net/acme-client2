@@ -707,9 +707,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-aws-lc"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "1e36abf8bc36e84af7a05d80255d2533a5d6f9b1f6b799bfb58b5fad9052c986"
+checksum = "acd9ffbd54e428080c7ef61bd5486baeacc3569cce110b79a3558989a8fa7606"
 dependencies = [
  "aws-lc-sys",
  "http",
